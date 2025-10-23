@@ -1,6 +1,6 @@
 ---
 name: Maintenance Event
-about: Schedule a work window
+about: Schedule a work window for planned maintenance.
 title: "[Scheduled Maintenance] Site down for Maintenance"
 labels: maintenance
 assignees: ''

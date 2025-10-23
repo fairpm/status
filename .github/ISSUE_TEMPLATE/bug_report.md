@@ -1,9 +1,9 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug Report
+about: Help us improve the FAIR Status Page.
 title: ''
 labels: 'bug'
-assignees: 'AnandChowdhary'
+assignees: 'ipstenu'
 
 ---
 

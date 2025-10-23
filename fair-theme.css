@@ -1,0 +1,45 @@
+:root {
+	/* Color Defines from FAIR Branding */
+	--color-green: #25b372;
+	--color-dark-green: #005f41;
+	--color-light-green: #d8e8e4;
+	--color-orange: #ffaa00;
+	--color-red: #970101;
+	--color-dark-red: #6b1020;
+	--color-mid-red: #eb3b5a;
+	--color-light-red: #ffd0d2;
+	--color-blue: #0073aa;
+	--color-dark-blue: #003d5c;
+	--color-light-blue: #66b3d6;
+	--color-black: #000;
+	--color-white: #fff;
+	--color-light-gray: #f6f6f7;
+	--color-dark-gray: #565757;
+	--color-transparent-gray: #e6e6e7dd;
+
+	/* Default Theme */
+	--body-background-color: var(--color-white);
+	--body-text-color: var(--color-black);
+	--card-background-color: var(--color-dark-gray);
+	--nav-background-color: var(--color-white);
+	--nav-border-bottom-color:  var(--color-dark-blue);
+	--nav-current-border-bottom-color: var(--color-light-blue);
+	--card-border-color: var(--color-light-gray);
+	--down-border-left-color: var(--color-mid-red);
+	--down-background-color: var(--color-light-red);
+	--degraded-border-left-color: var(--color-orange);
+	--up-border-left-color: var(--color-green);
+	--tag-color: var(--color-white);
+	--tag-up-background-color: var(--color-dark-green);
+	--tag-down-background-color: var(--color-red);
+	--tag-degraded-background-color: var(--color-orange);
+	--change-background-color: var(--color-orange);
+	--error-button-border-color: var(--color-dark-blue);
+	--error-button-background-color: var(--color-blue);
+	--error-button-color: var(--color-white);
+	--submit-button-border-color: var(--color-dark-blue);
+	--submit-button-background-color: var(--color-blue);
+	--submit-button-color: var(--color-white);
+	--graph-opacity: 1;
+	--graph-filter: none;
+}

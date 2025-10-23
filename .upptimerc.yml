@@ -23,7 +23,7 @@ status-website:
   introMessage: "This is the status page for the FAIR Project."
   navbar:
     - title: Status
-      href: /
+      href: https://fairpm.github.io/status
     - title: FAIR
       href: https://fair.pm
     - title: AspirePress

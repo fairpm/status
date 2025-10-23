@@ -17,13 +17,13 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: demo.upptime.js.org
   baseUrl: /status
-  logoUrl: https://raw.githubusercontent.com/fairpm/status/production/assets/clock-history.svg
+  logoUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/logo.svg
   name: FAIR Project
   introTitle: "**FAIR** is a open-source distribution package manager for [WordPress](https://wordpress.org)."
   introMessage: "This is the status page for the FAIR Project."
   navbar:
     - title: Status
-      href: /
+      href: https://fairpm.github.io/status
     - title: FAIR
       href: https://fair.pm
     - title: AspirePress
@@ -33,7 +33,7 @@ status-website:
     - title: GitHub
       href: https://github.com/fairpm/status
   theme: ocean
-  themeUrl: https://raw.githubusercontent.com/fairpm/status/production/assets/fair-theme.css
+  themeUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/fair-theme.css
 
 # Custom commit messages with DCO signatures
 commitMessages:

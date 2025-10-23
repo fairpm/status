@@ -1,4 +1,4 @@
-# [📈 Live Status](https://fairpm.github.io/status): <!--live status--> **🟩 All systems operational**
+# [📈 Live Status](https://fairpm.github.io/status): <!--live status--> **🟥 Complete outage**
 
 This repository contains the open-source uptime monitor and status page for [FAIR Package Manager Project](https://fair.pm/), powered by [Upptime](https://github.com/upptime/upptime).
 
@@ -18,6 +18,24 @@ This repository contains the open-source uptime monitor and status page for [FAI
 | <img alt="" src="https://icons.duckduckgo.com/ip3/aspirepress.org.ico" height="13"> [AspirePress](https://aspirepress.org/) | 🟩 Up | [aspire-press.yml](https://github.com/fairpm/status/commits/HEAD/history/aspire-press.yml) | <details><summary><img alt="Response time graph" src="./graphs/aspire-press/response-time-week.png" height="20"> 238ms</summary><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="Response time 238" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fresponse-time.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="24-hour response time 238" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fresponse-time-day.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="7-day response time 238" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fresponse-time-week.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="30-day response time 238" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fresponse-time-month.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="1-year response time 238" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://fairpm.github.io/status/history/aspire-press">100.00%</a></summary><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="All-time uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fuptime.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fuptime-day.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fuptime-week.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fuptime-month.json"></a><br><a href="https://fairpm.github.io/status/history/aspire-press"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairpm%2Fstatus%2FHEAD%2Fapi%2Faspire-press%2Fuptime-year.json"></a></details>
 
 <!--end: status pages-->
+
+## 🛠️ Configuration
+
+This more or less runs automated without the need for intervention.
+
+- Basic config, including monitored sites, is in `.uptimerc.yml`
+- CSS is configured in the `assets/fair-theme.css` file.
+- Custom log is `assets/logo.svg` (note that the logo is a placeholder for now)
+
+To make updates, create a branch from `master` (no we cannot rename it, as it's dependant on the parent template), make your changes, and merge back into `master`.
+
+## 🚨 Incidents, Outages, and Planned Maintenance
+
+If the monitored sites (see `.uptimerc.yml`) go down, a new issue will be opened in Github and Slack will be alerted. If the site comes back up, the issue will be closed.
+
+> When a specified endpoint goes down, Upptime automatically opens a new issue in your GitHub repository. You can use this issue to add more information about the outage, such as whether you are investigating, what caused the downtime, etc.
+
+There is a custom issue template for "Maintenance Event" to be used for any planned outages.
 
 ## 📄 License
 

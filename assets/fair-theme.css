@@ -20,26 +20,36 @@
 	/* Default Theme */
 	--body-background-color: var(--color-white);
 	--body-text-color: var(--color-black);
-	--card-background-color: var(--color-dark-gray);
-	--nav-background-color: var(--color-white);
-	--nav-border-bottom-color:  var(--color-dark-blue);
-	--nav-current-border-bottom-color: var(--color-light-blue);
-	--card-border-color: var(--color-light-gray);
+
+	--card-background-color: var(--color-light-gray);
+	--card-border-color: var(--color-dark-gray);
+
+	--nav-background-color: var(--color-light-blue);
+	--nav-border-bottom-color:  var(--color-blue);
+	--nav-current-border-bottom-color: var(--color-dark-blue);
+
 	--down-border-left-color: var(--color-mid-red);
 	--down-background-color: var(--color-light-red);
+
 	--degraded-border-left-color: var(--color-orange);
-	--up-border-left-color: var(--color-green);
+
+	--up-border-left-color: var(--color-dark-green);
+
 	--tag-color: var(--color-white);
 	--tag-up-background-color: var(--color-dark-green);
 	--tag-down-background-color: var(--color-red);
 	--tag-degraded-background-color: var(--color-orange);
+
 	--change-background-color: var(--color-orange);
+
 	--error-button-border-color: var(--color-dark-blue);
 	--error-button-background-color: var(--color-blue);
 	--error-button-color: var(--color-white);
+
 	--submit-button-border-color: var(--color-dark-blue);
 	--submit-button-background-color: var(--color-blue);
 	--submit-button-color: var(--color-white);
+
 	--graph-opacity: 1;
 	--graph-filter: none;
 }

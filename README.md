@@ -19,6 +19,24 @@ This repository contains the open-source uptime monitor and status page for [FAI
 
 <!--end: status pages-->
 
+## 🛠️ Configuration
+
+This more or less runs automated without the need for intervention.
+
+* Basic config, including monitored sites, is in `.uptimerc.yml`
+* CSS is configured in the `assets/fair-theme.css` file.
+* Custom log is `assets/logo.svg` (note that the logo is a placeholder for now)
+
+To make updates, create a branch from `master` (no we cannot rename it, as it's dependant on the parent template), make your changes, and merge back into `master`.
+
+## 🚨 Incidents, Outages, and Planned Maintenance
+
+If the monitored sites (see `.uptimerc.yml`) go down, a new issue will be opened in Github and Slack will be alerted. If the site comes back up, the issue will be closed.
+
+> When a specified endpoint goes down, Upptime automatically opens a new issue in your GitHub repository. You can use this issue to add more information about the outage, such as whether you are investigating, what caused the downtime, etc.
+
+There is a custom issue template for "Maintenance Event" to be used for any planned outages.
+
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)

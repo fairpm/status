@@ -32,8 +32,8 @@ status-website:
       href: https://wordpress.org/
     - title: GitHub
       href: https://github.com/fairpm/status
-  theme: ocean
-  themeUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/fair-theme.css
+  theme: light
+  themeUrl: https://fairpm.github.io/status/fair-theme.css
 
 # Custom commit messages with DCO signatures
 commitMessages:

@@ -1,7 +1,10 @@
-# Change these first
+# See https://upptime.js.org/docs/configuration
+
+# Owner and repository name
 owner: fairpm # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 
+# Sites to monitor
 sites:
   - name: FAIR
     url: https://fair.pm
@@ -12,10 +15,10 @@ sites:
     assignees:
       - chuckadams
 
+# Status website configuration
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
+  # When the status website is hosted on a custom domain, uncomment the `cname` line and set it to the custom domain name.
+  # cname: status.fair.pm
   baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/logo.svg
   name: FAIR Project
@@ -34,6 +37,6 @@ status-website:
       href: https://github.com/fairpm/status
   theme: light
   themeUrl: https://fairpm.github.io/status/fair-theme.css
-  js: "window.onload = function() { document.getElementById('datetimeDisplay').innerHTML = new Date().toLocaleString(); }"
-  customBodyHtml: "<p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p>"
-# See https://upptime.js.org/docs/configuration
+  scripts:
+    - src: https://raw.githubusercontent.com/fairpm/status/master/assets/datetime.js
+  customFootHtml: "<p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p>"

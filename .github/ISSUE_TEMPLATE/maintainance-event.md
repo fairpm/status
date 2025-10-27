@@ -14,4 +14,4 @@ expectedDown: google, hacker-news
 -->
 
 **Additional context**
-Who/what/when/where/why is this maintenance happening
+Who/what/when/where/why is this maintenance happening. Remember ALL TIMES ARE UTC.

@@ -4,18 +4,20 @@
     "url": "https://fair.pm",
     "icon": "https://icons.duckduckgo.com/ip3/fair.pm.ico",
     "slug": "fair",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 152,
-    "timeDay": 217,
-    "timeWeek": 152,
-    "timeMonth": 152,
-    "timeYear": 152,
-    "dailyMinutesDown": {}
+    "time": 169,
+    "timeDay": 302,
+    "timeWeek": 169,
+    "timeMonth": 169,
+    "timeYear": 169,
+    "dailyMinutesDown": {
+      "2025-10-27": 0
+    }
   },
   {
     "name": "AspirePress",

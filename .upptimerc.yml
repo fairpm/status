@@ -34,6 +34,6 @@ status-website:
       href: https://github.com/fairpm/status
   theme: light
   themeUrl: https://fairpm.github.io/status/fair-theme.css
-
-# Upptime also supports notifications, assigning issues, and more
+  js: "window.onload = function() { document.getElementById('datetimeDisplay').innerHTML = new Date().toLocaleString(); }"
+  customBodyHtml: "<p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p>"
 # See https://upptime.js.org/docs/configuration

@@ -20,6 +20,10 @@ sites:
     url: https://api.aspirecloud.net/
     assignees:
       - chuckadams
+  - name: AspireCloud API
+    url: https://api.aspirecloud.io/
+    assignees:
+      - chuckadams
 
 # Status website configuration
 status-website:

@@ -10,8 +10,12 @@ sites:
     url: https://fair.pm
     assignees:
       - rmccue
-  - name: AspirePress
-    url: https://aspirepress.org/
+  - name: FAIR API
+    url: https://https://api.fair.pm/
+    assignees:
+      - rmccue
+  - name: AspireCloud
+    url: https://aspirecloud.org/
     assignees:
       - chuckadams
 

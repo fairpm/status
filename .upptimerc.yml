@@ -11,11 +11,11 @@ sites:
     assignees:
       - rmccue
   - name: FAIR API
-    url: https://https://api.fair.pm/
+    url: https://api.fair.pm/
     assignees:
       - rmccue
   - name: AspireCloud
-    url: https://aspirecloud.org/
+    url: https://api.aspirecloud.net/
     assignees:
       - chuckadams
 

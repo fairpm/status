@@ -41,7 +41,7 @@ To customize the URL as `status.fair.pm`
 4. Update the `.upptimerc.yml` file to use `CNAME=status.fair.pm`
 5. Push the code to production
 
-** On AWS Route 53**
+**On AWS Route 53**
 
 1. Log in to AWS: Open the AWS Management Console and navigate to the Route 53 service.
 2. Select your Hosted Zone: Click on Hosted zones and select the domain fair.pm.

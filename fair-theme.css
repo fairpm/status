@@ -53,3 +53,18 @@
 	--graph-opacity: 1;
 	--graph-filter: none;
 }
+
+
+.timezones {
+	border-bottom-color: var(--nav-border-bottom-color);
+	background: var(--nav-background-color);
+	font-weight: 500;
+	padding: 0 1em;
+	white-space: nowrap;
+	overflow-x: auto;
+	text-align: center;
+
+	.datetimeDisplay {
+		font-style: italic;
+	}
+}

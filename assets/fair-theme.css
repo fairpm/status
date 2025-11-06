@@ -64,7 +64,7 @@
 	overflow-x: auto;
 	text-align: center;
 
-	.datetimeDisplay {
+	#datetimeDisplay {
 		font-style: italic;
 	}
 }

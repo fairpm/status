@@ -18,23 +18,19 @@ sites:
 # Status website configuration
 status-website:
   # When the status website is hosted on a custom domain, uncomment the `cname` line and set it to the custom domain name.
-  # cname: status.fair.pm
-  baseUrl: /status
+  cname: status.fair.pm
+  # baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/logo.svg
   name: FAIR Project
   introTitle: "**FAIR** is a open-source distribution package manager for [WordPress](https://wordpress.org)."
   introMessage: "This is the status page for the FAIR Project."
   navbar:
-    - title: Status
-      href: https://fairpm.github.io/status
     - title: FAIR
       href: https://fair.pm
     - title: AspirePress
       href: https://aspirepress.org/
     - title: WordPress
       href: https://wordpress.org/
-    - title: GitHub
-      href: https://github.com/fairpm/status
   theme: light
   themeUrl: https://fairpm.github.io/status/fair-theme.css
   scripts:

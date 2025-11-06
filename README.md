@@ -29,6 +29,32 @@ This more or less runs automated without the need for intervention.
 
 To make updates, create a branch from `master` (no we cannot rename it, as it's dependant on the parent template), make your changes, and merge back into `master`.
 
+### DNS
+
+To customize the URL as `status.fair.pm`
+
+**On Github:**
+
+1. Click on SETTINGS for this repository
+2. Click on **Pages** on the left hand menu
+3. Under **Custom Domain**, put in `status.fair.pm` and click save
+4. Update the `.upptimerc.yml` file to use `CNAME=status.fair.pm`
+5. Push the code to production
+
+** On AWS Route 53**
+
+1. Log in to AWS: Open the AWS Management Console and navigate to the Route 53 service.
+2. Select your Hosted Zone: Click on Hosted zones and select the domain fair.pm.
+3. Create a new record: Click the Create record button.
+4. Configure the record:
+  - Record name: Enter `status.`
+  - Record type: Choose `CNAME` - Routes traffic to another domain name and to some AWS resources.
+  - Value: Enter `fairpm.github.io`. Important: Do **not** include the `/status` part of the URL. The CNAME record should point to the root GitHub Pages domain.
+  - TTL (Seconds): You can leave this at the default setting.
+5. Save the record: Click the Create records button.
+
+After you've completed these steps, it may take some time for the DNS changes to propagate, though it is often quite fast.
+
 ## 🚨 Incidents, Outages, and Planned Maintenance
 
 If the monitored sites (see `.uptimerc.yml`) go down, a new issue will be opened in Github and Slack will be alerted. If the site comes back up, the issue will be closed.

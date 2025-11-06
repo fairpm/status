@@ -11,8 +11,8 @@
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.80%",
     "time": 178,
-    "timeDay": 201,
-    "timeWeek": 214,
+    "timeDay": 198,
+    "timeWeek": 211,
     "timeMonth": 178,
     "timeYear": 178,
     "dailyMinutesDown": {
@@ -24,7 +24,7 @@
     "url": "https://https://api.fair.pm/",
     "icon": "https://icons.duckduckgo.com/ip3/https.ico",
     "slug": "fair-api",
-    "status": "up",
+    "status": "down",
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
@@ -36,7 +36,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-11-06": 0
+      "2025-11-06": 2
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://aspirecloud.org/",
     "icon": "https://icons.duckduckgo.com/ip3/aspirecloud.org.ico",
     "slug": "aspire-cloud",
-    "status": "up",
-    "uptime": "9.08%",
-    "uptimeDay": "9.08%",
-    "uptimeWeek": "9.08%",
-    "uptimeMonth": "9.08%",
-    "uptimeYear": "9.08%",
+    "status": "down",
+    "uptime": "0.82%",
+    "uptimeDay": "0.82%",
+    "uptimeWeek": "0.82%",
+    "uptimeMonth": "0.82%",
+    "uptimeYear": "0.82%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-11-06": 0
+      "2025-11-06": 2
     }
   }
 ]

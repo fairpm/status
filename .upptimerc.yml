@@ -20,7 +20,7 @@ status-website:
   # When the status website is hosted on a custom domain, uncomment the `cname` line and set it to the custom domain name.
   cname: status.fair.pm
   # baseUrl: /status
-  logoUrl: https://raw.githubusercontent.com/fairpm/status/master/assets/logo.svg
+  logoUrl: https://status.fair.pm/logo.svg
   name: FAIR Project
   introTitle: "**FAIR** is a open-source distribution package manager for [WordPress](https://wordpress.org)."
   introMessage: "This is the status page for the FAIR Project."
@@ -32,7 +32,7 @@ status-website:
     - title: WordPress
       href: https://wordpress.org/
   theme: light
-  themeUrl: https://fairpm.github.io/status/fair-theme.css
+  themeUrl: https://status.fair.pm/fair-theme.css
   scripts:
-    - src: https://fairpm.github.io/status/datetime.js
+    - src: https://status.fair.pm/datetime.js
   customHeadHtml: "<div><p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p></div>"

@@ -39,4 +39,4 @@ status-website:
   themeUrl: https://fairpm.github.io/status/fair-theme.css
   scripts:
     - src: https://fairpm.github.io/status/datetime.js
-  customFootHtml: "<p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p>"
+  customHeadHtml: "<div><p>All times are relative to the viewer's timezone. Current time: <span id='datetimeDisplay'></span></p></div>"

@@ -5,16 +5,16 @@
     "icon": "https://status.fair.pm/favicon.ico",
     "slug": "fair",
     "status": "up",
-    "uptime": "99.86%",
-    "uptimeDay": "99.31%",
+    "uptime": "99.87%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.86%",
-    "uptimeYear": "99.86%",
-    "time": 189,
-    "timeDay": 167,
-    "timeWeek": 246,
-    "timeMonth": 189,
-    "timeYear": 189,
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
+    "time": 187,
+    "timeDay": 72,
+    "timeWeek": 185,
+    "timeMonth": 187,
+    "timeYear": 187,
     "dailyMinutesDown": {
       "2025-11-17": 10,
       "2025-10-27": 40
@@ -31,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
-    "time": 217,
-    "timeDay": 196,
-    "timeWeek": 199,
-    "timeMonth": 217,
-    "timeYear": 217,
+    "time": 214,
+    "timeDay": 165,
+    "timeWeek": 184,
+    "timeMonth": 214,
+    "timeYear": 214,
     "dailyMinutesDown": {
       "2025-11-06": 5
     }
@@ -51,11 +51,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
-    "time": 290,
-    "timeDay": 326,
-    "timeWeek": 305,
-    "timeMonth": 290,
-    "timeYear": 290,
+    "time": 288,
+    "timeDay": 236,
+    "timeWeek": 299,
+    "timeMonth": 288,
+    "timeYear": 288,
     "dailyMinutesDown": {
       "2025-11-06": 5
     }
@@ -71,11 +71,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 650,
-    "timeDay": 692,
-    "timeWeek": 650,
-    "timeMonth": 650,
-    "timeYear": 650,
+    "time": 645,
+    "timeDay": 571,
+    "timeWeek": 662,
+    "timeMonth": 645,
+    "timeYear": 645,
     "dailyMinutesDown": {}
   }
 ]

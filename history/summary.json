@@ -45,9 +45,9 @@
     "url": "https://api.aspirecloud.net/",
     "icon": "https://icons.duckduckgo.com/ip3/api.aspirecloud.net.ico",
     "slug": "aspire-cloud",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.98%",
@@ -57,6 +57,7 @@
     "timeMonth": 280,
     "timeYear": 280,
     "dailyMinutesDown": {
+      "2025-11-21": 0,
       "2025-11-06": 5
     }
   },

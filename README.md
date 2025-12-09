@@ -65,7 +65,9 @@ If the monitored sites (see `.uptimerc.yml`) go down, a new issue will be opened
 
 > When a specified endpoint goes down, Upptime automatically opens a new issue in your GitHub repository. You can use this issue to add more information about the outage, such as whether you are investigating, what caused the downtime, etc.
 
-There is a custom issue template for "Maintenance Event" to be used for any planned outages.
+We have a custom issue template for "Maintenance Event" to be used for any planned outages.
+
+We also automatically alert Slack.
 
 ## 📄 License
 

@@ -19,7 +19,7 @@ sites:
   - name: AspireCloud.net (Production)
     url: https://api.aspirecloud.net/
     assignees:
-      - chuckadams
+      - chuckadams,toderash
   - name: AspireCloud.io (Staging)
     url: https://api.aspirecloud.io/
     assignees:

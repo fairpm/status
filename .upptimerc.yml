@@ -16,11 +16,11 @@ sites:
     icon: https://status.fair.pm/favicon.ico
     assignees:
       - rmccue,ipstenu,chuckadams
-  - name: AspireCloud
+  - name: AspireCloud.net (Production)
     url: https://api.aspirecloud.net/
     assignees:
-      - chuckadams
-  - name: AspireCloud API
+      - chuckadams,toderash
+  - name: AspireCloud.io (Staging)
     url: https://api.aspirecloud.io/
     assignees:
       - chuckadams

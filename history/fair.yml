@@ -1,7 +1,7 @@
 url: https://fair.pm
-status: up
-code: 200
-responseTime: 142
-lastUpdated: 2026-02-08T23:04:44.403Z
+status: down
+code: 500
+responseTime: 470
+lastUpdated: 2026-02-09T00:50:06.029Z
 startTime: 2025-10-23T19:52:59.752Z
 generator: Upptime <https://github.com/upptime/upptime>

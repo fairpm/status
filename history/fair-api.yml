@@ -1,7 +1,7 @@
 url: https://api.fair.pm/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-02-23T23:24:01.902Z
+status: up
+code: 200
+responseTime: 188
+lastUpdated: 2026-02-24T00:49:52.737Z
 startTime: 2025-11-06T18:33:35.926Z
 generator: Upptime <https://github.com/upptime/upptime>
